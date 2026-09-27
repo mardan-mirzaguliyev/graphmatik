@@ -3,6 +3,7 @@ library(ggalluvial)
 library(ggrepel)
 library(forcats)
 library(gt)
+library(writexl)
 
 
 
@@ -229,4 +230,17 @@ go_emotions_disagreements |>
     reasoning ~ px(320)
   ) |> 
   gtsave("tables/05-go-emotions-disagreements.png")
+
+
+# Analysis for TESOL lesson plan only - Sep 27, 2026
+tesol_labels <- c("Joy", "Trust", "Anticipation", "Surprise",
+                  "Anger", "Disgust", "Fear", "Sadness")
+
+ozymandias_tesol <- poem_raw |> 
+  select(-line) |> 
+  get_or_run_claude_synch(text_col = text,
+                          output_name = "data/ozymandias_tesol",
+                          labels = tesol_labels)
+
+write_xlsx(ozymandias_tesol, path = "data/ozymandias_tesol.xlsx")
 
