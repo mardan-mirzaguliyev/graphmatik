@@ -1,8 +1,8 @@
-# Graphmatik 📊✍️
+# [Visage Quant](https://visagequant.substack.com/) 📊✍️
 
 > *"True art is able to make us feel the artist's emotional state they were in while creating their masterpieces."*
 
-Welcome to **Graphmatik** — a data science and AI engineering publication where methods get tested against real data before the results get trusted. What started as a deep dive into sentiment analysis has grown into a broader exploration of data analytics, applied wherever there's a genuine question worth answering with evidence rather than assumption.
+Welcome to **Visage Quant** — a data science and AI engineering publication where methods get tested against real data before the results get trusted. What started as a deep dive into sentiment analysis has grown into a broader exploration of data analytics, applied wherever there's a genuine question worth answering with evidence rather than assumption.
 
 ## 🌟 About the Project
 
@@ -35,7 +35,7 @@ The codebase is organized chronologically by episode, combining analytical noteb
 
 ## 🔗 Links & Resources
 
-* 📰 **Read all episodes on Substack:** [Graphmatik](https://graphmatik.substack.com/)
+* 📰 **Read all episodes on Substack:** [Visage Quant](https://visagequant.substack.com/)
 
 ---
 
@@ -45,5 +45,5 @@ If you want to run or inspect the code locally:
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/mardan-mirzaguliyev/graphmatik.git
+   git clone https://github.com/mardan-mirzaguliyev/visagequant.git
 ```
